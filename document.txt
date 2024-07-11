@@ -1,0 +1,370 @@
+ <div class="second-section">
+        <div class="second-section-text">
+            <p class="fs-5">"Expect Counseling & Support"</p>
+            <p class="text-center">Our mental health solutions are designed to help you overcome life's 
+                challenges and achieve optimal well-being. Discover how our expert counselling and Support, combined with evidence-based treatment 
+                options, can help you find the path to a healthier, happier life
+            </p>
+        </div>
+        
+
+        <div class="second-section-catalogue">
+            <div class="first-row-catalogue">
+                <div class="row-catalogue-text">
+                    <h3>Anxiety Treatment</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia ducimus velit quasi
+                         dolore tempore excepturi animi cumque. Dolores, ab quasi sit harum laboriosam 
+                         accusantium iste explicabo veniam excepturi obcaecati nemo iure, amet fuga nesciunt quos repudiandae eius nostrum vero. 
+                         Dolor libero fuga alias eos optio maxime excepturi nam fugiat.
+                    </span>
+
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                </div>
+    <!---------------------------------------- row-catalogue-image ---------------------------------------->
+                <div class="row-catalogue-image">
+                    <img src="../Relationship counsellor/media/pexels-polina-zimmerman-3958379.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+
+
+
+            <div class="second-row-catalogue">
+    <!---------------------------------------- row-catalogue-image ---------------------------------------->
+                <div class="row-catalogue-image">
+                    <img src="../Relationship counsellor/media/pexels-cottonbro-4098152.jpg" class="img-fluid" alt="...">
+                </div>
+
+                <div class="row-catalogue-text">
+                    <h3>Anxiety Treatment</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia ducimus velit quasi
+                         dolore tempore excepturi animi cumque. Dolores, ab quasi sit harum laboriosam 
+                         accusantium iste explicabo veniam excepturi obcaecati nemo iure, amet fuga nesciunt quos repudiandae eius nostrum vero. 
+                         Dolor libero fuga alias eos optio maxime excepturi nam fugiat.
+                    </span>
+
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                </div>
+
+            </div>
+
+            <div class="third-row-catalogue">
+                <div class="row-catalogue-text">
+                    <h3>Anxiety Treatment</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia ducimus velit quasi
+                         dolore tempore excepturi animi cumque. Dolores, ab quasi sit harum laboriosam 
+                         accusantium iste explicabo veniam excepturi obcaecati nemo iure, amet fuga nesciunt quos repudiandae eius nostrum vero. 
+                         Dolor libero fuga alias eos optio maxime excepturi nam fugiat.
+                    </span>
+
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                </div>
+    <!---------------------------------------- row-catalogue-image ---------------------------------------->
+
+                <div class="row-catalogue-image">
+                    <img src="../Relationship counsellor/media/pexels-cottonbro-4101143.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <a href="#" class="text-decoration-none">Read More</a>
+        </div>
+    </div>
+
+    <!---------------------------------------- about-section ----------------------------------------->
+
+    <div class="about-section">
+        <div class="about-section-text">
+
+
+
+            <button class="btn btn-primary" type="submit">Button</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        </div>
+
+        <div class="about-section-image">
+            <img src="../Relationship counsellor/media/pexels-cottonbro-4098152.jpg" alt="">
+        </div>
+    </div>
+
+    <!---------------------------------------- discover-section ----------------------------------------->
+
+    <div class="discover-section">
+        <div class="discover-section-text">
+            <p class="text-center">"Discover the Expertise and support of our skilled mental health staff"</p>
+            <p class="text-small-center">We believe that building strong relationships between our clients and our staff is essential for effective mental health counselling. Meet our team and find the right counsellor for you.</p>
+        </div>
+
+        <div class="discover-professional-profile">
+
+            <div class="first-professional-profile">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Relationship counsellor/media/pexels-cottonbro-4101143.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="Profession-color">Profession</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            </div>
+            
+            <div class="first-professional-profile">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Relationship counsellor/media/pexels-cottonbro-4101143.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                        <h6 class="Profession-color">Profession</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="first-professional-profile">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Relationship counsellor/media/pexels-cottonbro-4101143.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                        <h6 class="Profession-color">Profession</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!---------------------------------------- youtube-watch-section ----------------------------------------->
+
+    <div class="youtube-watch-section">
+        <div class="discover-section-text">
+            <p class="text-center">"Welcome, we are glad you come"</p>
+            <p class="text-small-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempore beatae praesentium dolor 
+                eos nam magnam, amet sit fugiat! Voluptatum nam placeat nesciunt fuga aspernatur laboriosam. Voluptas ullam, eum voluptates labore
+                natus nihil similique expedita quia autem? Sapiente iste perferendis dolor, velit nostrum non repellendus quod omnis temporibus
+                saepe ipsum? Corporis expedita maxime dignissimos sapiente pariatur amet eum illo ut ratione eius harum, molestiae, distinctio earum
+                libero iste quam at labore nemo dolore excepturi saepe! Doloremque, harum! Nulla, nostrum esse?
+            </p>
+
+            <iframe class="short-youtube-video"
+             src="https://www.youtube.com/embed/BpzVvUGfJeA?si=wIgU-AnIVJyenAk6" 
+             title="YouTube video player" frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+        </div>
+    </div>
+
+    <!------------------------------------------- blogs-section --------------------------------------------->
+    <div class="blogs-section">
+        <div class="header-main">
+            <h1>Our Blogs</h1>
+        </div>
+
+        <div class="blog-rows">
+            <div class="first-blog-row">
+                <img src="..." alt="" srcset="">
+
+                <h5>Person's....</h5>
+
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Labore doloremque nam aspernatur nemo aliquid reiciendis commodi praesentium! 
+                     Quae inventore atque dolor nihil libero, qui voluptatibus consequuntur eius 
+                     perferendis molestiae quis praesentium! Illo itaque in beatae pariatur eligendi 
+                     nesciunt, explicabo nulla quia voluptate maiores molestias totam! Fuga rerum 
+                     voluptatem in accusantium odio. Quia molestias at cupiditate facere magnam 
+                     voluptatibus! Incidunt, quisquam.
+                </h6>
+            </div>
+
+            <div class="second-blog-row">
+                <img src="..." alt="" srcset="">
+
+                <h5>Person's....</h5>
+
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Labore doloremque nam aspernatur nemo aliquid reiciendis commodi praesentium! 
+                     Quae inventore atque dolor nihil libero, qui voluptatibus consequuntur eius 
+                     perferendis molestiae quis praesentium! Illo itaque in beatae pariatur eligendi 
+                     nesciunt, explicabo nulla quia voluptate maiores molestias totam! Fuga rerum 
+                     voluptatem in accusantium odio. Quia molestias at cupiditate facere magnam 
+                     voluptatibus! Incidunt, quisquam.
+                </h6>
+            </div>
+
+            <div class="third-blog-row">
+                <img src="..." alt="" srcset="">
+
+                <h5>Person's....</h5>
+
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Labore doloremque nam aspernatur nemo aliquid reiciendis commodi praesentium! 
+                     Quae inventore atque dolor nihil libero, qui voluptatibus consequuntur eius 
+                     perferendis molestiae quis praesentium! Illo itaque in beatae pariatur eligendi 
+                     nesciunt, explicabo nulla quia voluptate maiores molestias totam! Fuga rerum 
+                     voluptatem in accusantium odio. Quia molestias at cupiditate facere magnam 
+                     voluptatibus! Incidunt, quisquam.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------- note-short-section --------------------------------------------->
+    <section class="note-short">
+
+        <p class="fs-1">.fs-1 text</p>
+
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+             impedit laudantium dolore, neque necessitatibus natus! Fuga quae sit error beatae 
+             aliquam ad iste exercitationem, consectetur aliquid eos cumque tempore molestiae 
+             voluptatem provident itaque, esse, dolorem in perferendis suscipit officiis! Tempore.
+        </span>
+
+        <button type="button" class="btn btn-outline-primary">GET STARTED</button>
+    </section>
+
+    <!------------------------------------------- contact-section --------------------------------------------->
+    <div class="contact-section">
+
+        <div class="contact-text">
+            <h2>
+                Let us help you live your best life.
+                Contact us to learn more.
+            </h2>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Describe your issue" rows="6"></textarea>
+            </div>
+
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+
+        <div class="contact-catalogue-image">
+            <img src="..." alt="" srcset="">
+        </div>
+
+
+    </div>
+
+    <!------------------------------------------- FAQs-section --------------------------------------------->
+
+    <div class="FAQs-section">
+        <div class="second-layer">
+            <div class="layer-inner-display">
+
+                <div class="FAQs-text"><h2>Who we were</h2></div>
+
+                    <!------------------------------------------- accordion-placement --------------------------------------------->
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            
+            </div>
+
+
+            <div class="FAQs-catalogue-image">
+                <img src="..." alt="" srcset="">
+            </div>
+
+        </div>
+    </div>
+
+    <!---------------------------------------- footer-section ---------------------------------------->
+
+    <div class="footer-section">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Input your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">subscribe</span>
+        </div>
+
+        <div class="footer-listing">
+            <div class="footer-listing-first">
+                <h4>About us</h4>
+
+                <ul>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Our mission</a></li>
+                    <li><a href="#">Our values</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-listing-second">
+                <h4>Resources</h4>
+
+                <ul>
+                    <li><a href="#">Bogs</a></li>
+                    <li><a href="#">User guides</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>                
+            </div>
+            
+
+            <div class="footer-listing-third">
+                <h4>Company</h4>
+
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#"></a>Socials</li>
+                </ul>
+            </div>
+            
+
+            <div class="footer-listing-forth">
+                <h4>Quick links</h4>
+
+                <ul>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>

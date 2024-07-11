@@ -1,0 +1,415 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.main-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(Unknown-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-container{
+    margin-left: 40px;
+}
+
+.navbar-header ul li a{
+    margin-right: 30px;
+}
+
+.main-section h2, h6{
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.font-2{
+    font-size: 1.5rem;
+    line-height: 3;
+}
+
+.main-section h6{
+    font-size: 0.9rem;
+}
+
+/* ------ lower-main-section ------ */
+
+.lower-main-section{
+    background-image: url(pexels-ketut-subiyanto-4473612\ \(1\).jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.lower-main-section h1{
+    color: rgb(254, 202, 68);
+    font-weight: 900;
+}
+
+/* --------- second-section ------- */
+
+.second-section{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.second-section h4{
+    text-align: center;
+}
+
+.second-section p{
+    max-width: 800px;
+    margin-left: 300px;
+}
+
+.second-section-core{
+    margin-bottom: 50px;
+}
+
+.second-section-catalogue{
+    margin-left: 40px;
+}
+
+.first-row{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.first-row-text{
+    margin: 0px 130px 0px 50px;
+}
+
+.section-catalogue-image{
+    width: 450px; 
+    height: 250px; 
+    border-radius: 5px;
+}
+
+.second-main-buttons{
+    margin: 30px 0px 0px -300px;
+}
+
+.button-blue{
+    margin: 0px 15px 0px 300px;
+    width: 150px;
+}
+
+.button-white{
+    width: 150px;
+}
+
+.second-row{
+    display: flex;
+    margin-left: 40px;
+}
+
+.first-row-text p{
+    max-width: 700px;
+    margin-left: 0px;
+}
+
+.last-section-catalogue{
+    display: flex;
+    margin-left: 50px;
+}
+
+.last-row-text{
+    margin-left: -100px;
+}
+
+.last-row-text p{
+    max-width: 700px;
+}
+
+.last-row-text h4{
+    margin-left: -200px;
+}
+
+.read-more{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.read-more:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* --------- about-us ------- */
+
+.about-us{
+    width: 100%;
+    height: 550px;
+    background-image: url(pexels-victorfreitas-841130.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.about-first{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.about-second{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 50px;
+    max-width: 700px;
+}
+
+.about-us-onion{
+    display: flex;
+}
+
+.about-textarea{
+    margin: 100px 100px 0px 40px;
+}
+
+.about-textarea h6{
+    color: gray;
+    max-width: 700px;
+}
+
+.about-doublebutton{
+    margin-left: 50px;
+}
+
+.button-about-b{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.button-about-g{
+    width: 150px;
+}
+
+
+.about-images img{
+    height: 450px;
+    width: 450px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    margin-top: 50px;
+}
+
+/* --------- discover ------- */
+
+.discover-main{
+    width: 100%;
+    height: 100%;
+    background-color: #e1e1e1;
+}
+
+.discover-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dc-6{
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    color: black;
+}
+
+i{
+    margin-right: 20px;
+}
+
+i:hover{
+    cursor: pointer;
+    transform: scale(1.25, 1.25);
+    color: #0d6efd;
+}
+
+.discover-text h3{
+    max-width: 800px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+
+}
+
+.discover-text h6{
+    font-size: 0.8rem;
+    max-width: 900px;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+/* --------- welcome ------- */
+
+.welcome{
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    background-image: url(pexels-marcus-aurelius-6787205.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome h3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome h6{
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+iframe{
+    margin-left: 380px;
+
+}
+
+.welcome button{
+    margin-left: 700px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+/* --------- contact ------- */
+
+.contact-form{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-left: 50px;
+}
+
+.first-column-form{
+    margin-right: 200px;
+}
+
+.form-front-text{
+    margin-top: 80px;
+}
+
+.button-sumbit{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-images-contact img{
+    height: 550px;
+    width: 450px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    margin-top: 50px;
+}
+
+/* --------- accordion ------- */
+
+.accordion{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 222, 222);
+}
+
+.accordion-main{
+    width: 700px;
+}
+
+.accordion-container-main{
+    margin-left: 50px;
+}
+
+/* --------- listings ------- */
+
+.row-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.end-listing ul li{
+    list-style: none;
+    justify-content: center;
+}
+
+.end-listing ul{
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.end-listing ul li a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.end-listing ul li a:hover{
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.input-tab{
+    width: 500px;
+    margin-left: 35%;
+}
+
+.subscribe-tab{
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* --------- courtesy ------- */
+
+.courtesy{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.courtesy span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.courtesy span:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.courtesy i{
+    color: #FFFFFF;
+}

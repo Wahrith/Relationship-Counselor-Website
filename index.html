@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Therapy Clinic</title>
+
+    <!---------------------------------------- bootstrap ----------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!---------------------------------------- Google-fonts ----------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!---------------------------------------- font-awesome ----------------------------------------->
+
+    <script src="https://kit.fontawesome.com/db4193da0d.js" crossorigin="anonymous"></script>
+
+    <!---------------------------------------- css-link ----------------------------------------->
+
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+
+    <!---------------------------------------- navbar ----------------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-header">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-container" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">X(formerly twitter)</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">Youtube</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+
+
+        <!---------------------------------------- Button trigger modal ----------------------------------------->
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Book an appointment
+            </button>
+            
+        <!---------------------------------------- modal ----------------------------------------->
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Appointment Confirmation</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Appointment Date:</strong> 34th April, 2056
+                        <br>
+                        <strong>Time:</strong> 1:30pm
+                        <br>
+                        <strong>Doctor:</strong> Dr. Emily Carter
+                        <br>
+                        <strong>Location:</strong> Tranquil City
+                        <br>
+                        <strong>Address:</strong> 1234 Harmony Lane, Suite 200, Tranquil City, TC 56789
+                        <br>
+                        <hr>
+                        
+                        Notes:
+                        
+                        Please arrive 15 minutes early for check-in.
+                        Bring your insurance card and photo ID.
+                        If you need to reschedule, call us at (555) 987-6543.
+
+                        <br>
+                        Let us know if there's anything else you need!
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Book</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+    </div>
+      </nav>
+
+
+    <!---------------------------------------- main-section ----------------------------------------->
+      <div class="main-section">
+        <!-- <img  src="./pexels-polina-zimmerman-3958379.jpg"/> -->
+        <h2 class="font-2">"Your Space to Heal From Whatever You Bring, Without Fear of Judgement"</h1>
+        <h6>-Aasiyah Clark, LPC-</h6>
+      </div>
+
+    <!---------------------------------------- lower-main-section ----------------------------------------->
+
+      <div class="lower-main-section">
+        <br><br><br><br>
+        <h1>Embrace a Happier Mind</h1>
+        <h6>Take the First Step to Healing</h6>
+        <button type="button" class="btn btn-primary">Make an appointment</button>
+      </div>
+
+    <!---------------------------------------- second-section ----------------------------------------->
+
+  <div class="second-section">
+    <div class="second-section-core">
+      <br><br>
+      <h4>"Expect Counselling & Support"</h4>
+      <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero neque vel culpa! Repudiandae, 
+        enim nostrum tempora ducimus fugit quo dolorem perspiciatis quis non voluptates quibusdam necessitatibus illo repellat, 
+        voluptatibus alias laudantium totam eveniet quos quaerat. 
+      </p>
+   
+    </div>
+
+    <div class="second-section-catalogue">
+      <div class="first-row">
+        <div class="first-row-text">
+          <h3>Anxiety Treatment</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Laboriosam, officiis mollitia officia dolores sint eos molestiae tenetur incidunt atque recusandae 
+            sequi similique sit quae inventore quam? Dolorum, dignissimos. Magni cupiditate quos eum ipsa optio adipisci, itaque laudantium perferendis qui incidunt deleniti omnis sint officiis accusamus.
+          </p> 
+
+          <div class="second-main-buttons">
+            <button type="button" class="btn btn-primary button-blue">Primary</button>
+
+            <button type="button" class="btn btn-outline-secondary button-white">Secondary</button>
+          </div>
+          
+        </div>
+        <div class="section-catalogue-image">
+          <img src="pexels-polina-zimmerman-3958379.jpg" alt="..." class="section-catalogue-image">
+        </div>
+          
+        
+      </div>
+
+        <div class="last-section-catalogue">
+          <div class="last-row-image">
+            <img src="pexels-cottonbro-4098152.jpg" alt="..." srcset="" class="section-catalogue-image">
+          </div>
+
+          <div class="last-row-text">
+            <h4>Anxiety Treatment</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis 
+              mollitia officia dolores sint eos molestiae tenetur incidunt atque recusandae sequi similique sit 
+              quae inventore quam? Dolorum, dignissimos. Magni cupiditate quos eum ipsa optio adipisci, itaque 
+              laudantium perferendis qui incidunt deleniti omnis sint officiis accusamus.
+            </p>
+
+            <div class="last-main-buttons">
+              <button type="button" class="btn btn-primary button-blue">Primary</button>
+  
+              <button type="button" class="btn btn-outline-secondary button-white">Secondary</button>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <p href="#" class="read-more">Read More</p>
+      
+    </div>
+
+    <!---------------------------------------- About us ---------------------------------------->
+
+    <div class="about-us">
+      <div class="about-us-onion">
+        <div class="about-textarea">
+          <p class="text-start about-first">About Us</p>
+          <p class="text-start about-second">At our mental health counseling system 
+            system, we take a client-centered approach to support your mental health and welll-being
+          </p>
+  
+          <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quisquam unde quaerat, 
+            temporibus quos eligendi reprehenderit sint voluptas aliquid cupiditate molestias 
+            explicabo deleniti incidunt! Voluptatem cum totam aliquid asperiores illum commodi similique, 
+            enim voluptate ipsa magni nam tenetur magnam, assumenda molestias iure vel sit, dicta incidunt? 
+            Ad earum enim voluptas? Porro rerum neque fugiat? Aliquid sint corrupti consequatur eveniet minima.
+          </h6>
+  
+  
+          <div class="about-doublebutton">
+            <button type="button" class="btn btn-primary button-about-b">Primary</button>
+    
+            <button type="button" class="btn btn-outline-secondary button-about-g">Secondary</button>
+          </div>
+        </div>
+  
+        <div class="about-images">
+          <img src="pexels-hazardos-1535288.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+      
+    </div>
+
+    <!---------------------------------------- discover ---------------------------------------->
+
+  <div class="discover-main">
+    <div class="discover-text">
+      <br><br>
+      <h3>"Discover the Expertise and Support of Our Skilled Mental Health Staff"</h2>
+      <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in optio sapiente aperiam, earum cumque temporibus cum praesentium eos perspiciatis porro magnam reiciendis natus ad ut, ipsam qui nisi iure. Omnis sequi inventore esse est necessitatibus, eligendi, ipsam recusandae asperiores aspernatur, odit deleniti ea earum.</h6>
+    </div>
+    <br><br>
+    <div class="discover-cards">
+      <div class="card single-card" style="width: 18rem; margin-bottom: 50px;">
+        <img src="pexels-andrewpersonaltraining-697509.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title title-name">Full Name</h5>
+          <p class="text-start">Profession.</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <i class="fa-brands fa-linkedin fa-2x"></i><i class="fa-brands fa-square-x-twitter fa-2x"></i><i class="fa-brands fa-square-instagram fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="card single-card" style="width: 18rem; margin-bottom: 50px;">
+        <img src="pexels-emilygarland-1499327.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title title-name">Full Name</h5>
+          <p class="text-start">Profession.</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <i class="fa-brands fa-linkedin fa-2x"></i><i class="fa-brands fa-square-x-twitter fa-2x"></i><i class="fa-brands fa-square-instagram fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="card single-card" style="width: 18rem; margin-bottom: 50px;">
+        <img src="pexels-blitzboy-1040880.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title title-name">Full Name</h5>
+          <p class="text-start">Profession.</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <i class="fa-brands fa-linkedin fa-2x"></i><i class="fa-brands fa-square-x-twitter fa-2x"></i><i class="fa-brands fa-square-instagram fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!---------------------------------------- welcomex ---------------------------------------->
+
+    <div class="welcome">
+      <div class="container-welcome-text">
+        <br><br>
+        <h3>"Welcome, we are glad you come"</h3>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Accusantium voluptatem nemo vel quisquam, beatae magnam incidunt voluptate laboriosam dolores repellendus libero? Ea dolores omnis sit sunt ullam praesentium odio obcaecati non, soluta laborum ipsum et numquam minima inventore blanditiis nostrum voluptatibus exercitationem eveniet quisquam dolore ipsa velit? Laborum harum tempore nihil earum. Assumenda iusto doloribus odio soluta ullam natus modi.
+        </h6>
+
+        <iframe width="750" height="315" src="https://www.youtube.com/embed/DxIDKZHW3-E?si=6K55inYq6QccxYiC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+      <button type="button" class="btn btn-primary">Watch More</button>
+    </div>
+
+    <!---------------------------------------- contact ---------------------------------------->
+
+    <div class="contact-form">
+      <div class="first-column-form">
+        <div class="form-front-text">
+          <h2>Let us help you live your best life.</h2>
+          <h2>Contact us to learn more.</h2>
+        </div>
+  
+  
+        <div class="input-group mb-3" style="width: 600px;">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="form-floating mb-3" style="width: 600px;">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+  
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
+          <label for="floatingTextarea2">Describe your issue</label>
+        </div>
+  
+        <input class="btn btn-primary button-sumbit" type="submit" value="Submit">
+
+        
+      </div>
+      <div class="about-images-contact">
+        <img src="pexels-cottonbro-4101143.jpg" class="img-fluid" alt="...">
+      </div>
+
+
+     
+    </div>
+
+    <!---------------------------------------- accordion ---------------------------------------->
+<div class="accordion">
+
+  <br><br>
+  <div class="accordion-container-main">
+    <h2>Who we are?</h2>
+    <div class="accordion accordion-main" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+            Accordion Item #4
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+    
+</div>
+
+
+    <!---------------------------------------- listings ---------------------------------------->
+<div class="end-listing">
+  <br><br>
+  <div class="input-group mb-3 input-tab">
+    <input type="text" class="form-control" placeholder="input your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <span class="input-group-text subscribe-tab" id="basic-addon2">subscribe</span>
+  </div>
+  <br>
+  <div class="row-footer">
+    <div class="footer-col">
+        <h5>About us</h5>
+        <ul>
+            <li><a href="#">Professional Resume Writing</a></li>
+            <li><a href="#">Federal Resume Writing</a></li>
+            <li><a href="#">Military Transition Resume</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h5>Resources</h5>
+            <ul>
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <li><a href="#">Customer Success Stories</a></li>
+                <li><a href="#">Resume Samples</a></li>
+            </ul>
+    </div>
+
+    <div class="footer-col">
+        <h5>Company</h5>
+            <ul>
+                <li><a href="#">Partnership Program</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Gift Card</a></li>
+                <li><a href="#">Sponsorship</a></li>
+            </ul>
+    </div>
+
+    <div class="footer-col">
+        <h5>Quick links</h5>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Partnerships</a></li>
+                <li><a href="#">Outplacement</a></li>
+            </ul>
+    </div>
+</div>
+</div>
+
+    <!---------------------------------------- Courtesy ---------------------------------------->
+    <div class="courtesy">
+      <span><i class="fa-regular fa-copyright"></i>Group 7 (CMP 434) Relationship Counsellor Website </span><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-square-x-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-instagram"></i>
+    </div>
+    <!---------------------------------------- Javascript for modal ---------------------------------------->
+    
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+        
+        myModal.addEventListener('shown.bs.modal', () => {
+          myInput.focus()
+        })
+    </script>
+</body>
+</html>
